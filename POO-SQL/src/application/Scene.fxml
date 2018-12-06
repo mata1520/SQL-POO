@@ -10,11 +10,10 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextArea layoutX="7.0" layoutY="327.0" prefHeight="150.0" prefWidth="587.0" text="UNAH-SQL-POO" />
-      <Button layoutX="14.0" layoutY="202.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Movimieto Contable" />
+      <TextArea layoutX="7.0" layoutY="319.0" prefHeight="150.0" prefWidth="587.0" text="           .---.        .-&quot;-. &#10;         /   6_6    / 4 4 \&#10;         \_  (__\    \_ v _/&#10;         //   \\      //   \\&#10;        ((     ))      ((     ))&#10;  =======&quot;&quot;===&quot;&quot;========SQL-POO=======&#10;           |||            |||&#10;            |              |" />
+      <Button layoutX="14.0" layoutY="202.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Estado de Resultado" />
       <Button layoutX="14.0" layoutY="119.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Registro" />
       <ButtonBar layoutX="418.0" layoutY="455.0" prefHeight="22.0" prefWidth="114.0" />
       <MenuBar layoutX="433.0" layoutY="14.0" prefHeight="22.0" prefWidth="160.0">
@@ -36,11 +35,11 @@
           </Menu>
         </menus>
       </MenuBar>
-      <Button layoutX="14.0" layoutY="36.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Balances" />
-      <Button layoutX="14.0" layoutY="287.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Clientes" />
-      <Button layoutX="14.0" layoutY="79.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Proveedores" />
-      <Button layoutX="14.0" layoutY="246.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Cuentas" />
-      <Button layoutX="14.0" layoutY="160.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Extra" />
+      <Button layoutX="14.0" layoutY="36.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Asiento Contable" />
+      <Button layoutX="14.0" layoutY="287.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Lista Usuarios" />
+      <Button layoutX="14.0" layoutY="79.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Partida Doble" />
+      <Button layoutX="14.0" layoutY="246.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Nuevo Usuario" />
+      <Button layoutX="14.0" layoutY="160.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="143.0" text="Balance General" />
       <ImageView fitHeight="336.0" fitWidth="339.0" layoutX="210.0" layoutY="2.0">
          <image>
             <Image url="@../logos-UNAH-11.png" />

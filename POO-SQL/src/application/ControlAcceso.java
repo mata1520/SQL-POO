@@ -1,5 +1,4 @@
 package application;
-import application.Main;
 import Usuarios.Usuarios;
 import java.net.URL;
 import java.util.ArrayList;
@@ -17,28 +16,28 @@ public class ControlAcceso implements Initializable{
 	@FXML private Button btnCancelar;
 	@FXML private TextArea txtAResultado;
 	ArrayList<Usuarios> usuarios = new ArrayList<Usuarios>();
-	Usuarios administrador= new Usuarios("matamoros",1520);
+	Usuarios administrador = new Usuarios("Matamoros","1520");
 	public ArrayList<Usuarios> getUsuerios() {
 		return usuarios;
 	}
 	public void setUsuerios(ArrayList<Usuarios> usuerios) {
 		this.usuarios = usuerios;
 	}
-	public void initialize(URL location, ResourceBundle arg1) {
-	}
+	
+	public void initialize(URL location, ResourceBundle arg1) {}
 	@FXML
 	public void salir() {
 		System.exit(0);
 	}
-	public void verificacionUsuario(TextField txtCuenta, TextField txtNombre){
+	public boolean verificacionUsuario(TextField txtCuenta, TextField txtNombre){
 		usuarios.add(administrador);
 		for (int n=0;n==usuarios.size();n++) {
-			if((txtNombre.getText()==usuarios.get(n).getNombre())==true) {
-				
+			if((txtNombre.getText().equals(usuarios.get(n).getNombre()))==true) {
+				if(txtCuenta.getText().equals(usuarios.get(n).getCuenta())==true) {
+					return true;
+				}
 			}
-
-			
 		}
+		return false;
 	}
-
 }	
