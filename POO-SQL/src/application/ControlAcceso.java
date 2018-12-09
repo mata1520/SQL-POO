@@ -15,6 +15,7 @@ public class ControlAcceso implements Initializable{
 	@FXML private Button btnAcceder;
 	@FXML private Button btnCancelar;
 	@FXML private TextArea txtAResultado;
+	private Main main;
 	ArrayList<Usuarios> usuarios = new ArrayList<Usuarios>();
 	Usuarios administrador = new Usuarios("Matamoros","1520");
 	public ArrayList<Usuarios> getUsuerios() {
@@ -29,6 +30,19 @@ public class ControlAcceso implements Initializable{
 	public void salir() {
 		System.exit(0);
 	}
+	@FXML
+	public void ventanaControl(){
+		
+	}
+
+	public Main getMain() {
+		return main;
+	}
+
+	public void setMain(Main main) {
+		this.main = main;
+	}
+	
 	public boolean verificacionUsuario(TextField txtCuenta, TextField txtNombre){
 		usuarios.add(administrador);
 		for (int n=0;n==usuarios.size();n++) {

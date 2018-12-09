@@ -32,9 +32,7 @@ public class ControlPrincipal implements Initializable{
 	@FXML private Button btnEliminar;
 	@FXML private Button btncargarDatos;
 	
-	public void initialize(URL location, ResourceBundle arg1) {
-		
-		
+	public void initialize(URL location, ResourceBundle arg1) {	
 	}
 	@FXML
 	public void salir() {
