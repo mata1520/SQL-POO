@@ -32,7 +32,7 @@ public class ControlAcceso implements Initializable{
 	}
 	@FXML
 	public void ventanaControl(){
-		
+		main.ventanaControl();
 	}
 
 	public Main getMain() {
